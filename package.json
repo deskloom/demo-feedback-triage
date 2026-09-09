@@ -1,0 +1,13 @@
+{
+  "name": "demo-feedback-triage",
+  "version": "1.0.0",
+  "description": "架空の顧客フィードバックをOpenAI APIで分類・要約する小規模CLIデモ",
+  "type": "module",
+  "scripts": {
+    "start": "node cli.mjs",
+    "test": "node --test classify.test.mjs"
+  },
+  "dependencies": {
+    "openai": "^4.104.0"
+  }
+}
